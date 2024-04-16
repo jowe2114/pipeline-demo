@@ -12,8 +12,8 @@ pipeline {
             steps {
                 script {
                 	echo "Running Unit Test..."
-			pwsh 'chmod 744 gradlew'
-			pwsh './gradlew clean test'
+			sh 'chmod 744 gradlew'
+			sh './gradlew clean test'
         	}
     	    }
 	}
