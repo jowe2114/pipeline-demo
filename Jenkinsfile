@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        dockerHubCredentialsID	    = 'Docker Hub'  		    			// DockerHub credentials ID.
+        dockerHubCredentialsID	    = 'DockerHub'  		    			// DockerHub credentials ID.
         imageName   		    = 'jowe2114/nti-app'     			// DockerHub repo/image name.
     }
     
